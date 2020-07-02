@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
 	<script src="js/main.js" defer></script>
 	<script src="js/libs.min.js" defer></script>
@@ -287,8 +287,20 @@
 				</div>
 			</div>
 			<div class="support__inner-item">
+				<!-- hidden field -->
 				<form action="" class="support-form">
-					input
+					<input type="hidden" name="project_name" value="Site name">
+					<input type="hidden" name="admin_email" value="admin@gmail.com">
+					<input type="hidden" name="form_subject" value="Form Subject"> <!-- form location -->
+
+					<input class="support-form__elem" type="text" name="name" placeholder="Имя">
+					<input class="support-form__elem" type="text" name="com" placeholder="Компания">
+					<input class="support-form__elem" type="text" name="project_name" placeholder="Телефон">
+					<input class="support-form__elem" type="text" name="project_name" placeholder="E-mail">
+					<textarea class="support-form__message" type="text" name="project_name" placeholder="Сообщение"></textarea>
+					<button class="main-btn">
+						отправить
+					</button>
 				</form>
 			</div>
 		</div>

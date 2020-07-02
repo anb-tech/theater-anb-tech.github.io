@@ -38,4 +38,19 @@ $(function(){
 		slidesToScroll: 1
 	});
 
+	$("form").submit(function() {
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "mail.php",
+			data: th.serialize()
+		}).done(function() {
+			alert("Thank you!");
+			setTimeout(function(){
+				tr.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+
 });
