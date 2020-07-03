@@ -80,7 +80,7 @@
 				<p class="header__info-text">
 					Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.
 				</p>
-				<button class="main-btn">
+				<button class="main-btn-g">
 					афиша
 				</button>
 			</div>
@@ -128,8 +128,8 @@
 	</header>
 	<section class="intro">
 		<div class="container">
-			<h4 class="main-subtitle">
-				<span class="gold-color">о</span>  театре
+			<h4 class="main-subtitle-g">
+				<span class="gold-color-g">о</span>  театре
 			</h4>
 			<div class="intro__inner">
 				<div class="intro__descr intro__inner-elem">
@@ -146,11 +146,11 @@
 					</h5>
 					<div class="intro__info-item">
 						<img class="intro__info-img" src="images/armchair-icon.svg" alt="">
-						<h6 class="intro__subtitle intro__subtitle-places"><span class="gold-color">1600</span> посадочный мест</h6>
+						<h6 class="intro__subtitle intro__subtitle-places"><span class="gold-color-g">1600</span> посадочный мест</h6>
 					</div>
 					<div class="intro__info-item">
 						<img class="intro__info-img" src="images/theater-icon.svg" alt="">
-						<h6 class="intro__subtitle intro__subtitle-years"><span class="gold-color">350</span> лет истории</h6>
+						<h6 class="intro__subtitle intro__subtitle-years"><span class="gold-color-g">350</span> лет истории</h6>
 					</div>
 				</div>
 				<div class="intro__img">
@@ -160,8 +160,8 @@
 		</div>
 	</section>
 	<section class="products">
-		<h4 class="main-subtitle">
-			<span class="gold-color">наши</span> постановки
+		<h4 class="main-subtitle-g">
+			<span class="gold-color-g">наши</span> постановки
 		</h4>
 		<div class="products-slider">
 			<div class="products-box" style="background-image: url(images/product-1.jpg);">
@@ -235,8 +235,8 @@
 		</div>
 	</section>
 	<section class="partners">
-		<h4 class="main-subtitle">
-			<span class="gold-color">партнеры</span> театра
+		<h4 class="main-subtitle-g">
+			<span class="gold-color-g">партнеры</span> театра
 		</h4>
 		<div class="partners__main">
 			<div class="partners__list">
@@ -270,45 +270,61 @@
 		</div>
 	</section>
 	<section class="supports">
-		<h4 class="main-subtitle">
-			<span class="gold-color">стать</span> меценатом
+		<h4 class="main-subtitle-g">
+			<span class="gold-color-g">стать</span> меценатом
 		</h4>
 		<div class="supports__inner">
-			<div class="support__inner-item">
+			<div class="supports__inner-item">
 				<div class="supports__contact-info">
-					<a class="supports__phone-number" href="tel:+78121234555">+7 (812) 123-45-55</a>
-					<a class="supports__phone-number" href="tel:+78121234566">+7 (812) 123-45-66</a>
-					<div class="supports__inner-mail">
+					<a class="supports__inner-elem supports__phone-number" href="tel:+78121234555">+7 (812) 123-45-55</a>
+					<a class="supports__inner-elem supports__phone-number" href="tel:+78121234566">+7 (812) 123-45-66</a>
+					<div class="supports__inner-elem supports__inner-mail">
 						info@theater.ru
 					</div>
-					<div class="supports__inner-address">
+					<div class="supports__inner-elem supports__inner-address">
 						г. санкт-петербург, невский 140
 					</div>
 				</div>
 			</div>
-			<div class="support__inner-item">
+			<div class="supports__inner-item">
 				<!-- hidden field -->
 				<form action="" class="support-form">
-					<input type="hidden" name="project_name" value="Site name">
-					<input type="hidden" name="admin_email" value="admin@gmail.com">
-					<input type="hidden" name="form_subject" value="Form Subject"> <!-- form location -->
+					<div class="support-form__item-top">
+						<div class="support-form__item-box">
+							<input type="hidden" name="project_name" value="Site name">
+							<input type="hidden" name="admin_email" value="admin@gmail.com">
+							<input type="hidden" name="form_subject" value="Form Subject"> <!-- form location -->
 
-					<input class="support-form__elem" type="text" name="name" placeholder="Имя">
-					<input class="support-form__elem" type="text" name="com" placeholder="Компания">
-					<input class="support-form__elem" type="text" name="project_name" placeholder="Телефон">
-					<input class="support-form__elem" type="text" name="project_name" placeholder="E-mail">
-					<textarea class="support-form__message" type="text" name="project_name" placeholder="Сообщение"></textarea>
-					<button class="main-btn">
-						отправить
-					</button>
+							<input class="support-form__elem" type="text" name="name" placeholder="Имя">
+							<input class="support-form__elem" type="text" name="company" placeholder="Компания">
+							<input class="support-form__elem" type="text" name="project_name" placeholder="Телефон">
+							<input class="support-form__elem" type="text" name="project_name" placeholder="E-mail">
+						</div>
+						<div class="support-form__item-box">
+							<textarea class="support-form__message" type="text" name="project_name" placeholder="Сообщение"></textarea>
+						</div>
+					</div>
+					<div class="support-form__item-bottom">
+						<button class="main-btn-g">
+							отправить
+						</button>
+						<p class="text-bottom-g support-form__info">
+							* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.
+						</p>
+					</div>
 				</form>
 			</div>
 		</div>
 	</section>
-
-
 	<footer class="footer">
-		
+		<div class="text-bottom-g footer__inner">
+			<div class="footer__inner-item">
+				(с) Все права защищены. Большой театр. 2020
+			</div>
+			<div class="footer__inner-item">
+				Разработано d-e-n.ru
+			</div>
+		</div>
 	</footer>
 </body> 
 </html>

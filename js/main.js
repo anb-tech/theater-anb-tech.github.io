@@ -33,6 +33,15 @@ $(function(){
 		}
 		);
 
+	$('.slider-arrow__right').hover(
+		function () {
+			$(this).addClass('slider-arrow__right--hover');
+		},
+		function () {
+			$(this).removeClass('slider-arrow__right--hover');
+		}
+		);
+
 	$('.products-slider').slick({
 		slidesToShow: 4,
 		slidesToScroll: 1
