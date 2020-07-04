@@ -657,6 +657,7 @@ input, textarea {
 }
 
 .header__aside-item {
+  opacity: 0.1;
   padding-top: 40px;
 }
 
