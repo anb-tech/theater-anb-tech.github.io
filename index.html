@@ -46,9 +46,7 @@
 		</div>
 		<div class="container">
 			<div class="header__top">
-				<div class="header__burger">
-					<span class="header__burger-line"></span>
-				</div>
+				<div class="header__burger"></div>
 				<nav class="menu">
 					<ul class="menu__list">
 						<li class="menu__list-item">
@@ -67,6 +65,32 @@
 							<a class="menu__list-link" href="#">контакты</a>
 						</li>
 					</ul>
+					<div class="menu-logos">
+						<div class="menu-logos__inner">
+							<div class="menu-logos__inner-item menu-logos__inner-facebook">
+								<a href="" class="menu__logo__item-link">
+									<img src="images/facebook-icon-small.svg" alt="facebook-icon">
+								</a>
+							</div>
+							<div class="menu-logos__inner-item">
+								<a href="" class="menu__logo__item-link">
+									<img src="images/instagram-icon-small.svg" alt="instagram-icon">
+								</a>
+							</div>
+						</div>
+						<div class="menu-logos__inner">
+							<div class="menu-logos__inner-item">
+								<a href="" class="menu__logo__item-link">
+									<img src="images/youtube-icon-small.svg" alt="youtube-icon">
+								</a>
+							</div>
+							<div class="menu-logos__inner-item">
+								<a href="" class="menu__logo__item-link">
+									<img src="images/vk-icon-small.svg" alt="vk-icon">
+								</a>
+							</div>
+						</div>
+					</div>
 				</nav>
 				<div class="header__phone">
 					<a class="header__phone-number" href="tel:+74951234567">+7 495 123-45-67</a>
@@ -208,6 +232,68 @@
 					</div>
 				</div>
 			</div>
+			<div class="products-box" style="background-image: url(images/product-1.jpg);">
+				<div class="products-box__inner">
+					<div class="products-box__inner-title">оскар 2020</div>
+					<div class="products-box__inner-data">сентябрь 2020</div>
+					<div class="products-box__inner-btn">
+						<a class="view-btn" href="" >
+							<img src="images/view-btn.svg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="products-box" style="background-image: url(images/product-2.jpg);">
+				<div class="products-box__inner">
+					<div class="products-box__inner-title">ревизор</div>
+					<div class="products-box__inner-data">август 2020</div>
+					<div class="products-box__inner-btn">
+						<a class="view-btn" href="" >
+							<img src="images/view-btn.svg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="products-box" style="background-image: url(images/product-3.jpg);">
+				<div class="products-box__inner">
+					<div class="products-box__inner-title">золотой грамофон</div>
+					<div class="products-box__inner-data">июль 2020</div>
+					<div class="products-box__inner-btn">
+						<a class="view-btn" href="" >
+							<img src="images/view-btn.svg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="products-box" style="background-image: url(images/product-4.jpg);">
+				<div class="products-box__inner">
+					<div class="products-box__inner-title">щелкунчик</div>
+					<div class="products-box__inner-data">май 2020</div>
+					<div class="products-box__inner-btn">
+						<a class="view-btn" href="" >
+							<img src="images/view-btn.svg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slider-arrow products-arrows__position">
+			<div class="slider-arrow__item slider-arrow__left">
+				<div class="slider-arrow__item slider-arrow__left-img">
+					<img src="images/arrow-left.svg" alt="">
+				</div>
+				<div class="slider-arrow__item">
+					пред
+				</div>
+			</div>
+			<div class="slider-arrow__item slider-arrow__right">
+				<div class="slider-arrow__item">
+					след
+				</div>
+				<div class="slider-arrow__item slider-arrow__right-img">
+					<img src="images/arrow-right.svg" alt="">
+				</div>
+			</div>
 		</div>
 	</section>
 	<section class="rating">
@@ -249,7 +335,7 @@
 				<div class="partners__logo">
 					<img class="partners__logo-img" src="images/gazprom-logo.svg" alt="">
 				</div>
-				<div class="partners__logo">
+				<div class="partners__logo last-logo">
 					<img class="partners__logo-img" src="images/gazprom-logo.svg" alt="">
 				</div>
 			</div>
@@ -263,7 +349,7 @@
 				<div class="partners__logo">
 					<img class="partners__logo-img" src="images/gazprom-logo.svg" alt="">
 				</div>
-				<div class="partners__logo">
+				<div class="partners__logo last-logo">
 					<img class="partners__logo-img" src="images/gazprom-logo.svg" alt="">
 				</div>
 			</div>
@@ -276,13 +362,17 @@
 		<div class="supports__inner">
 			<div class="supports__inner-item">
 				<div class="supports__contact-info">
-					<a class="supports__inner-elem supports__phone-number" href="tel:+78121234555">+7 (812) 123-45-55</a>
-					<a class="supports__inner-elem supports__phone-number" href="tel:+78121234566">+7 (812) 123-45-66</a>
-					<div class="supports__inner-elem supports__inner-mail">
-						info@theater.ru
+					<div class="supports__phones">
+						<a class="supports__inner-elem supports__phone-number" href="tel:+78121234555">+7 (812) 123-45-55</a>
+						<a class="supports__inner-elem supports__phone-number" href="tel:+78121234566">+7 (812) 123-45-66</a>
 					</div>
-					<div class="supports__inner-elem supports__inner-address">
-						г. санкт-петербург, невский 140
+					<div class="supports__address">
+						<div class="supports__inner-elem supports__inner-mail">
+							info@theater.ru
+						</div>
+						<div class="supports__inner-elem supports__inner-address">
+							г. санкт-петербург, невский 140
+						</div>
 					</div>
 				</div>
 			</div>
