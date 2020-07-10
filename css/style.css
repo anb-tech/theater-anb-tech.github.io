@@ -1088,6 +1088,14 @@ input, textarea {
     right: 50px;
     bottom: -157px;
   }
+  .partners__main {
+    padding: 0 auto;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .partners__list {
+    min-width: 900px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1131,10 +1139,11 @@ input, textarea {
   .intro__descr-text {
     min-width: 450px;
   }
-  .last-logo-1 {
+  .last-logo-2 {
     display: none;
   }
   .partners__main {
+    padding: 0;
     margin: 0 auto;
     max-width: 690px;
   }
@@ -1143,6 +1152,7 @@ input, textarea {
   }
   .supports {
     max-width: 690px;
+    padding: 0 0 80px 0;
   }
   .supports__inner {
     display: flex;
@@ -1311,6 +1321,12 @@ input, textarea {
 }
 
 @media (max-width: 576px) {
+  .intro {
+    padding-top: 80px;
+  }
+  .products {
+    padding-top: 80px;
+  }
   .products-box__inner:hover {
     background: rgba(51, 51, 51, 0);
     transition: 1s;
@@ -1341,8 +1357,11 @@ input, textarea {
   }
   .partners {
     max-width: 509px;
-    margin: 0 auto;
-    padding: 0;
+    margin: 80px auto 0;
+    padding: 0 auto;
+  }
+  .partners__list {
+    min-width: 509px;
   }
   .partners__list {
     min-width: 510px;
@@ -1350,7 +1369,7 @@ input, textarea {
   .partners__main {
     padding: 0;
   }
-  .last-logo-2 {
+  .last-logo-1 {
     display: none;
   }
   .slider-arrow__right {
@@ -1385,6 +1404,9 @@ input, textarea {
     max-width: 509px;
     margin: 0 auto;
     padding: 80px 0 80px 0;
+  }
+  .supports__inner {
+    padding-top: 60px;
   }
   .supports__contact-info {
     display: flex;
